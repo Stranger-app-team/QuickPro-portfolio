@@ -7,7 +7,7 @@ const reasons = [
 
 export default function WhyChooseUs() {
     return (
-        <section className="border-t border-white/5 bg-surface">
+        <section id="why-us" className="border-t border-white/5 bg-surface">
             <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
                 <div className="grid gap-10 md:grid-cols-2 md:items-center md:gap-16">
                     <div>
