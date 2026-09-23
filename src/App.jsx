@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -7,8 +8,13 @@ import Portfolio from "./components/Portfolio";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsConditions from "./components/TermsConditions";
 
 export default function App() {
+  const [showPrivacy, setShowPrivacy] = useState(false);
+  const [showTerms, setShowTerms] = useState(false);
+
   return (
     <div className="min-h-screen bg-ink font-body text-paper">
       <Navbar />
@@ -20,7 +26,13 @@ export default function App() {
         <WhyChooseUs />
         <Contact />
       </main>
-      <Footer />
+      <Footer
+        onPrivacyOpen={() => setShowPrivacy(true)}
+        onTermsOpen={() => setShowTerms(true)}
+      />
+
+      {showPrivacy && <PrivacyPolicy onClose={() => setShowPrivacy(false)} />}
+      {showTerms && <TermsConditions onClose={() => setShowTerms(false)} />}
     </div>
   );
 }
