@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-10 flex flex-col gap-2 border-t border-white/5 pt-6 text-xs text-dim sm:flex-row sm:items-center sm:justify-between">
-                    <p>© {new Date().getFullYear()} Quick Pro. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Blue Lotus Spa. All rights reserved.</p>
                     <p>Solapur, Maharashtra</p>
                 </div>
             </div>
