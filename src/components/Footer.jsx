@@ -50,8 +50,8 @@ export default function Footer({ onPrivacyOpen, onTermsOpen }) {
                             book2main@gmail.com
                         </a>
                         <p className="mt-3 max-w-[16rem] leading-relaxed">
-                            Near Patrakar Bhavan, House No. 37, Kasturba Gandhi Nagar, Modi, Solapur,
-                            Maharashtra 413001
+                            Shop No 302 & 303, Shah Prima, Sector 2, Kharghar,
+                            Pravesh Marg, Navi Mumbai, Maharashtra 410210
                         </p>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ export default function Footer({ onPrivacyOpen, onTermsOpen }) {
                             Terms &amp; Conditions
                         </button>
                         <span className="text-white/20">|</span>
-                        <p>Solapur, Maharashtra</p>
+                        <p>Navi Mumbai, Maharashtra</p>
                     </div>
                 </div>
             </div>

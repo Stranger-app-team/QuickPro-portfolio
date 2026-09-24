@@ -9,7 +9,7 @@ export default function Hero() {
         <section id="home" className="mx-auto max-w-6xl px-4 pb-16 pt-12 sm:px-6 md:pb-20 md:pt-24">
             <div className="grid gap-10 md:grid-cols-[1.2fr_1fr] md:items-center md:gap-12">
                 <div>
-                    <p className="text-sm text-dim">Solapur's online Tic-Tac-Toe gaming platform</p>
+                    <p className="text-sm text-dim">Navi Mumbai's online Tic-Tac-Toe gaming platform</p>
                     <h1 className="mt-3 font-display text-4xl font-semibold leading-[1.08] tracking-tightish text-paper sm:text-5xl md:text-6xl">
                         Every square
                         <br />

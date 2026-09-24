@@ -100,7 +100,7 @@ export default function TermsConditions({ onClose }) {
                         <p>
                             These Terms &amp; Conditions are governed by and construed in accordance with the laws of
                             Maharashtra, India. Any disputes arising shall be subject to the exclusive jurisdiction of
-                            the courts in Solapur, Maharashtra.
+                            the courts in Navi Mumbai, Maharashtra.
                         </p>
                     </Section>
 

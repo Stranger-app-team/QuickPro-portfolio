@@ -33,9 +33,9 @@ export default function Contact() {
                         <div>
                             <dt className="text-dim">Registered address</dt>
                             <dd className="mt-1 text-paper">
-                                Near Patrakar Bhavan, House No. 37, Kasturba Gandhi Nagar, Modi,
+                                Shop No 302 & 303, Shah Prima, Sector 2, Kharghar,
                                 <br />
-                                Solapur, Maharashtra 413001
+                                Pravesh Marg, Navi Mumbai, Maharashtra 410210
                             </dd>
                         </div>
                         <div>
